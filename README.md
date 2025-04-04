@@ -5,11 +5,11 @@ Welcome to **FocusFlare** – your personal Pomodoro-style focus hub. With a cle
 ---
 
 ## ✨ What’s Cool About It?
--✅ **Preset Timers** – 15, 30, 45, or 60 minutes – just one tap away
--✅ **Custom Time Option** – Set your own time if you’re feeling extra
--✅ **Mood Videos** – Pick from chill YouTube backgrounds while you work
--✅ **Dark Mode Vibes** – Soft on the eyes, perfect for late-night focus
--✅ **Motivational Finish** – When the timer ends, you get confetti & a little cheer
+- ✅ **Preset Timers** – 15, 30, 45, or 60 minutes – just one tap away
+- ✅ **Custom Time Option** – Set your own time if you’re feeling extra
+- ✅ **Mood Videos** – Pick from chill YouTube backgrounds while you work
+- ✅ **Dark Mode Vibes** – Soft on the eyes, perfect for late-night focus
+- ✅ **Motivational Finish** – When the timer ends, you get confetti & a little cheer
 
 ---
 
