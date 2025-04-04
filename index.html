@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔍FocusFlare✨</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 style="font-weight: normal;">🔍FocusFlare✨</h1>
+        <h2 style="font-weight: normal;">Focus on What Matters, Flare Up Your Passion!</h2>
+
+        <!-- Video Options -->
+        <div class="video-options">
+            <div class="video-thumbnail" onclick="selectVideo('Se5NjX-cM5I')">
+                <img src="https://i.ytimg.com/vi/Se5NjX-cM5I/hqdefault.jpg" alt="Waves">
+                <p class="thumbnail-name">Waves</p>
+            </div>
+            <div class="video-thumbnail" onclick="selectVideo('1z5AYlEKE3o')">
+                <img src="https://i.ytimg.com/vi/1z5AYlEKE3o/hqdefault.jpg" alt="Lofi">
+                <p class="thumbnail-name">Lofi</p>
+            </div>
+            <div class="video-thumbnail" onclick="selectVideo('S8GpX3SAeig')">
+                <img src="https://i.ytimg.com/vi/S8GpX3SAeig/hqdefault.jpg" alt="BTS Piano">
+                <p class="thumbnail-name">BTS Piano</p>
+            </div>
+            <div class="video-thumbnail" onclick="selectVideo('BSmYxnvUDHw')">
+                <img src="https://i.ytimg.com/vi/BSmYxnvUDHw/hqdefault.jpg" alt="Rains">
+                <p class="thumbnail-name">Rains</p>
+            </div>
+            <div class="video-thumbnail" onclick="selectVideo('0wB7iuER2Z0')">
+                <img src="https://i.ytimg.com/vi/0wB7iuER2Z0/hqdefault.jpg" alt="Cute">
+                <p class="thumbnail-name">Cute</p>
+            </div>
+        </div>
+
+        <!-- Timer Options -->
+        <div class="timer-options">
+            <div class="custom-timer">
+                <input type="number" id="hours" placeholder="HH" min="0"> :
+                <input type="number" id="minutes" placeholder="MM" min="0" max="59"> :
+                <input type="number" id="seconds" placeholder="SS" min="0" max="59">
+            </div>
+            <div class="button-container">
+                <button onclick="startTimer()">Start</button>
+                <button onclick="stopTimer()">Stop</button>
+                <button onclick="resetTimer()">Reset</button>
+                <button onclick="setTimer(15)">15 min</button>
+                <button onclick="setTimer(30)">30 min</button>
+                <button onclick="setTimer(45)">45 min</button>
+                <button onclick="setTimer(60)">60 min</button>
+            </div>
+        </div>
+
+        <!-- Timer Display -->
+        <div id="timer" class="timer">00:00:00</div>
+
+        <!-- Video Player -->
+        <div id="videoContainer">
+            <iframe id="videoPlayer" width="100%" height="100%" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <!-- Time's Up Popup -->
+    <div id="timesUpPopup" class="popup hidden">
+        <h2>⏰ Time's Up!</h2>
+        <p>You did a great job!</p>
+        <canvas id="confettiCanvas"></canvas>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
