@@ -33,7 +33,7 @@ Welcome to **FocusFlare** – your personal Pomodoro-style focus hub. With a cle
 ---
 
 ## 🌐 Try It Out
-🔗 https://asmitatawar.github.io/FocusFlare/
+🔗 [FocusFlare](https://asmitatawar.github.io/FocusFlare/)
 
 ---
 
